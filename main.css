@@ -1,40 +1,30 @@
-/* {
+{
   margin: 0;
   padding: 0;
 }
 
 
-header{
-	background-color:#8B0000;
-	padding:20px;
+.box1 {
+	border: 5px black solid;
+	padding: 5px 15px;
+	text-align: center;
+	margin-bottom: 50px;
+	background-image: url("http://madnic.ir/wp-content/uploads/2017/03/Madnic.Blockchain.jpg")
 }
 
-header h1{
-	display: inline;
-	color:white;
+.box2 {
+	margin-top: 50px;
+	overflow: auto;
 }
 
-nav ul{
-	display:inline;
-	float:right;
+.container {
+	width: 80%;
+	margin: auto;
 }
 
-nav ul li{
-	display: inline-block;
-	background-color:black;
-	list-style-type: none;
-	padding:10px;
-	border-radius: 10px;
-	margin:0px 5px;
+.block {
+	float: left;
+	width:25%;
+	box-sizing: border-box;
 }
 
-nav ul li a{
-	color:white;
-}
-
-.col{
-	background:green;
-	float:left;
-	width:31%;
-	margin:1%;
-}

@@ -1,5 +1,5 @@
-var name = prompt("May i know what is your name?");
-alert("Thanks for the information " + name + " Lets play an addition game now!");
+//var name = prompt("May i know what is your name?");
+//alert("Thanks for the information " + name + " Lets play an addition game now!");
 
 var numOne = document.getElementById("num-one");
 var numTwo = document.getElementById("num-two");
