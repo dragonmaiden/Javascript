@@ -3,8 +3,12 @@
   padding: 0;
 }
 
+p{
+	line-height: 1.6em;
+}
+
 #mainheader{
-	background-color: coral;
+	background-color:#DAA520;
 	color:black;
 	padding:15px;
 }
@@ -34,17 +38,18 @@ a:hover{
 }
 
 #showcase {
-	background-image:url("../Javascript/Cooking.jpg");
+	background-image:url("../Javascript/elephant.jpg");
 	min-height:300px;
 	background-repeat: no-repeat;
+	background-position: center center;
 	background-size: cover;
 	margin-bottom:30px;
 }
 
 #showcase h1{
-	color:white;
+	color: black;
 	font-size:50px;
-	padding-top:100px;
+	padding-top:130px;
 }
 
 #main{
@@ -57,7 +62,7 @@ a:hover{
 #sidebar{
 	float:right;
 	width:30%;
-	background-color:#E9967A;
+	background-color:#F0E68C;
 	border-radius:5px;
 	border-style: solid;
 	box-sizing: border-box;
@@ -65,7 +70,7 @@ a:hover{
 }
 
 #mainfooter{
-	background-color: #8B0000;
+	background-color: black;
 	text-align:center;
 	color:white;
 	padding:5px;
