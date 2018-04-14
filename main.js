@@ -1,4 +1,4 @@
-//var name = prompt("May i know what is your name?");
+var name = prompt("May i know what is your name?");
 
 var numOne = document.getElementById("sum-one");
 var numTwo = document.getElementById("sum-two");
