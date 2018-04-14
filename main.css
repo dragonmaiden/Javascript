@@ -79,11 +79,15 @@ a:hover{
 }
 
 .box1 {
-	border: 3px black solid;
-	padding: 5px 15px;
+	padding: 10px 15px;
 	text-align: center;
-	margin: 30px 0px;
+	margin: 20px 0px;
 }
+
+.box1 h1{
+	text-decoration: underline;
+}
+
 
 .box2 {
 	margin-top: 50px;
@@ -107,3 +111,16 @@ label {
 }
 
 
+button{
+	padding:5px 10px;
+	border-radius: 4px;
+	border:2px solid #4CAF50;
+	background-color: white; 
+	margin-left: 10px;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    transition-duration: 0.5s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

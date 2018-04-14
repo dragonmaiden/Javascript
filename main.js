@@ -1,5 +1,4 @@
-//var name = prompt("May i know what is your name?");
-//alert("Thanks for the information " + name + " Lets play an addition game now!");
+var name = prompt("May i know what is your name?");
 
 var numOne = document.getElementById("sum-one");
 var numTwo = document.getElementById("sum-two");
@@ -23,4 +22,12 @@ function less(){
 	var one = parseFloat(lessOne.value) || 0;
 	var two = parseFloat(lessTwo.value) || 0;
 	document.getElementById("less-answer").value = one - two;
+}
+
+//Button Generator
+document.getElementById("demo").addEventListener("click", generator);
+
+function generator() {
+    var num = Math.floor((Math.random()*10) + 1);
+    alert("The chosen random number for " + name + " is: " + num);
 }
