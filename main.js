@@ -1,4 +1,4 @@
-var name = prompt("May i know what is your name?");
+//var name = prompt("May i know what is your name?");
 
 var numOne = document.getElementById("sum-one");
 var numTwo = document.getElementById("sum-two");
@@ -28,6 +28,6 @@ function less(){
 document.getElementById("demo").addEventListener("click", generator);
 
 function generator() {
-    var num = Math.floor((Math.random()*10) + 1);
+    var num = Math.floor((Math.random()*5) + 1);
     alert("The chosen random number for " + name + " is: " + num);
 }
